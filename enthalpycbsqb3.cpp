@@ -236,7 +236,7 @@ double EnthalpyCBSQB3::EnthalpyResult(EnthalpyInputData &input){
         cout << "                      New calculation of molecular enthalpies of formation                         " << endl;
         cout << "                                                                                                   " << endl;
         cout << "              Enthalpies of formation of gaseous atoms at 0 K and thermal corrections              " << endl;
-        cout << "                       for elements in their standard state at 298.16 K from:                      " << endl;
+        cout << "                       for elements in their standard state at 298.15 K from:                      " << endl;
         cout << "                                                                                                   " << endl;
         cout << "                                  ARGONNE Thermochemical Tables                                    " << endl;
         cout << "                                Warning: sulfur is taken from NIST                                 " << endl;
