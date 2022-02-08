@@ -253,7 +253,7 @@ double EnthalpyCBSAPNO::EnthalpyResult(EnthalpyInputData &input){
         cout << "298K        " << EnthalpyTS(input) << " kJ mol-1" << endl;
         cout << "298K        " << EnthalpyTS_kcal(input) << " kcal mol-1" << endl;
         cout << "                                                                                                   " << endl;
-        cout << "Using G4: " << endl;
+        cout << "Using CBS-APNO: " << endl;
         cout << "298K        " << DeltaH_f298k(input) << " kJ mol-1" << endl;
         cout << "298K        " << DeltaH_f298k_kcal(input) << " kcal mol-1" << endl;
         cout << "                                                                                                   " << endl;
