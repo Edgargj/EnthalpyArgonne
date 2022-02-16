@@ -228,7 +228,7 @@ double EnthalpyCBSAPNO::EnthalpyTS_kcal(EnthalpyInputData &input){
 
 /* ***********************************************CBSAPNO*********************************************** */
 
-double EnthalpyCBSAPNO::EnthalpyResult(EnthalpyInputData &input){
+double EnthalpyCBSAPNO::PrintResult(EnthalpyInputData &input){
 
         MethodType MethodNorRRHO;
 
