@@ -1,6 +1,6 @@
 # EnthalpyArgonne
 
-EnthalpyArgonne is a program that calculates the enthalpies of formation (by the Gaussian09 G3, G3MP2, G4, CBS-APNO, CBS-QB3 method) of gaseous atoms at 0 K and thermal corrections for elements in their standard state at 298.15 K from: Argonne Thermochemical Tables. 
+EnthalpyArgonne is a program that calculates molecular enthalpies of formation at 298.15 K, using the output of the Gaussian09 package. To compute the enthalpies, the program uses internally atomization reactions. In addition, experimental data of gaseous atoms at 0 K are taken from Argonne Thermochemical Tables (https://atct.anl.gov). Thermal corrections for elements in their standard state at 298.15 K are taken from NIST-JANAF Thermochemical Tables J. Physics Chem. Data Monograph 9, 1998, 1-1951. The program supports the following composite methods: G3, G3MP2, G4, CBS-APNO and CBS-QB3. 
 
 # Git instructions
 
